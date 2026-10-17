@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Auto Parts | Kampala Auto Parts &amp; Accessories Centre</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Barlow+Condensed:wght@600;700&display=swap"
+			rel="stylesheet"
+		>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<main>
+			<section>
+				<div class="wrap">
+					<h1>Auto parts</h1>
+					<div class="bar">
+						<input
+							id="q"
+							type="search"
+							placeholder="Search by part, vehicle or category"
+							aria-label="Search products"
+						>
+						<select id="cat" aria-label="Filter by category"></select>
+					</div>
+					<p id="res" aria-live="polite"></p>
+					<br>
+					<div class="grid" id="grid"></div>
+				</div>
+			</section>
+		</main>
+
+		<script src="app.js"></script>
+	</body>
+</html>
